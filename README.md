@@ -1,0 +1,1 @@
+The project aims to develop a system that automates creating search queries from job descriptions. In traditional recruitment, human resource professionals and recruiters must manually craft search queries based on job descriptions to find suitable candidates on various job portals and databases.
