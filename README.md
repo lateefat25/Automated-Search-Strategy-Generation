@@ -74,7 +74,7 @@ Then, in the future, you can install all dependencies using:
 pip install -r requirements.txt
 ````
 
-###5. Run the Scripts
+### 5. Run the Scripts
 Execute the main scripts:
 ````
 python src/preprocessing.py
