@@ -3,6 +3,7 @@
 This codebase is part of the CM3070 Final Project submission for the University of London BSc Computer Science degree. The project aims to develop a system that automates creating search queries from job descriptions. In traditional recruitment, human resource professionals and recruiters must manually craft search queries based on job descriptions to find suitable candidates on various job portals and databases.
 
 # Directory Structure of the project
+``
 Automated-Search-Strategy-Generation/
 ├── data/
 │   ├── job_descriptions.csv          # Input dataset of job descriptions
@@ -23,7 +24,7 @@ Automated-Search-Strategy-Generation/
 ├── README.md                         # Project documentation
 ├── requirements.txt                  # Dependencies
 └── run_pipeline.py                   # Main script to execute the full pipeline
-
+``
 
 # Setup Instructions
 
@@ -31,12 +32,13 @@ Automated-Search-Strategy-Generation/
 Run the following command to create and activate a virtual environment:
 
 On macOS/Linux:
-
+``
 python3 -m venv venv
 source venv/bin/activate
+``
 
 On Windows (PowerShell):
-
+``
 python -m venv venv
 venv\Scripts\activate
-
+``
