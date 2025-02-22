@@ -43,3 +43,58 @@ On Windows (PowerShell):
 python -m venv venv
 venv\Scripts\activate
 ````
+
+### 2. Install Dependencies
+Once activated, install the required dependencies:
+
+````
+pip install rake-nltk keybert pandas nltk spacy
+pip install streamlit scikit-learn numpy
+pip install scikit-learn rake-nltk transformers keybert nltk
+pip install keybert --no-deps
+pip install --no-cache-dir sentence-transformers
+pip install tf-keras
+pip install torch==1.9.0+cpu -f https://download.pytorch.org/whl/torch_stable.html
+````
+
+### 3. Download Spacy Model
+
+If spacy is installed but the model is missing, download it:
+````
+python -m spacy download en_core_web_sm
+````
+
+### 4. Create requirements.txt
+If requirements.txt doesn’t exist, generate it:
+````
+pip freeze > requirements.txt
+````
+Then, in the future, you can install all dependencies using:
+````
+pip install -r requirements.txt
+````
+
+###5. Run the Scripts
+Execute the main scripts:
+````
+python src/preprocessing.py
+python src/ner_extraction.py
+python src/keyword_extraction.py
+python src/query_generator.py
+python src/evaluate.py
+python run_pipeline.py
+````
+
+### 6. Set Up Testing
+To run tests using pytest, install it:
+````
+pip install pytest
+````
+Verify the installation:
+````
+pytest --version
+````
+Run the tests:
+````
+pytest tests/
+````
