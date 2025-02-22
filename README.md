@@ -1,8 +1,6 @@
 # About The Project
 
-This codebase is part of the CM3070 Final Project submission for the University of London BSc Computer Science degree.
-
-The project aims to develop a system that automates creating search queries from job descriptions. In traditional recruitment, human resource professionals and recruiters must manually craft search queries based on job descriptions to find suitable candidates on various job portals and databases.
+This codebase is part of the CM3070 Final Project submission for the University of London BSc Computer Science degree. The project aims to develop a system that automates creating search queries from job descriptions. In traditional recruitment, human resource professionals and recruiters must manually craft search queries based on job descriptions to find suitable candidates on various job portals and databases.
 
 # Directory Structure of the project
 Automated-Search-Strategy-Generation/
@@ -15,8 +13,7 @@ Automated-Search-Strategy-Generation/
 │   ├── ner_extraction.py             # Named Entity Recognition (NER)
 │   ├── keyword_extraction.py         # TF-IDF, RAKE, BERT keyword extraction
 │   ├── query_generator.py            # Boolean query generator
-│   ├── evaluate.py                   # Evaluation metrics (Precision, Recall, F1-Score)
-│   └── utils.py                      # Helper functions
+│   └── evaluate.py                   # Evaluation metrics (Precision, Recall, F1-Score)
 ├── notebooks/
 │   ├── exploratory_analysis.ipynb    # Exploratory Data Analysis (EDA)
 │   └── prototype_demo.ipynb          # Prototype demonstration notebook
