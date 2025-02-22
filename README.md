@@ -27,4 +27,16 @@ Automated-Search-Strategy-Generation/
 
 # Setup Instructions
 
+### 1. Create a Virtual Environment
+Run the following command to create and activate a virtual environment:
+
+On macOS/Linux:
+
+python3 -m venv venv
+source venv/bin/activate
+
+On Windows (PowerShell):
+
+python -m venv venv
+venv\Scripts\activate
 
