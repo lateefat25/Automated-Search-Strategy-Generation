@@ -2,8 +2,6 @@ Job Title: Data Scientist
 
 Location: New York
 
-Job Type: Full-time
-
 Job Description: XYZ Tech Solutions is seeking a Data Scientist to join our growing analytics team. The ideal candidate will have strong technical expertise in Python, SQL, and Machine Learning frameworks, along with experience in building predictive models and data-driven solutions.
 
 Skills: Python, SQL, Machine Learning, TensorFlow, Scikit-learn, AWS, Tableau.
