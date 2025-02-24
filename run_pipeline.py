@@ -87,5 +87,11 @@ def main():
         
         print(f"Boolean Query for {row['Job Title']}: {boolean_query}")
 
+        # # Write results to a file
+        # with open("results/output_queries.txt", "w") as f:
+        #     for index, row in data.head(10).iterrows():
+        #      f.write(f"Job Title: {row['Job Title']}\n")
+        #     f.write(f"Boolean Query: {boolean_query}\n\n")
+
 if __name__ == "__main__":
     main()

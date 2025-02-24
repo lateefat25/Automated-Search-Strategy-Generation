@@ -1,0 +1,12 @@
+Job Title: Digital Marketing Specialist
+Job Title: Web Developer
+Job Title: Operations Manager
+Job Title: Network Engineer
+Job Title: Event Manager
+Job Title: Software Tester
+Job Title: Teacher
+Job Title: UX/UI Designer
+Job Title: UX/UI Designer
+Job Title: Wedding Planner
+Boolean Query: ("Wedding Planner") AND ("assist" OR "budget" OR "consultant" OR "couple" OR "wedding") AND ("Saint John's")
+
